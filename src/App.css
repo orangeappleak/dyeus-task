@@ -20,6 +20,7 @@ body,html{
 }
 
 #main-page-image-wrapper{
+  flex: 1;
   overflow: hidden;
   height: 100%;
 }
@@ -70,6 +71,10 @@ body,html{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+#rating-reviews h1{
+  font-size: 28px;
 }
 
 #rating-reviews *{
@@ -154,7 +159,7 @@ body #customer-reviews .customer-review h1{
 
 #one-month-pack, #three-month-pack{
   width: 60%;
-  transform: translate(0%,0%) scale(1);
+  transform: translate(0%,0%);
   display: flex;
   justify-content: space-between;
   color: white;

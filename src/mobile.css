@@ -1,0 +1,108 @@
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+
+    body *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #main-page{
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    body #main-page #main-page-image-wrapper{
+        flex: 1;
+        width: auto;
+        margin: 30px;
+        height: 50vh;
+        overflow: visible;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main-page #main-page-image-wrapper img{
+        width: 70%;
+    }
+
+    #main-page #product-section{
+        margin: 30px;
+        width: auto;
+    }
+
+    #product-section #rating-reviews #rating-stars{
+        flex: 1;
+    }
+
+    #product-section #product-brief-info p{
+        margin: 12px 0;
+    }
+
+    #product-brief-info #product-rating-div{
+        margin: 10px 0;
+    }
+
+    
+
+    #product-brief-info *{
+        margin: 0;
+    }
+
+    #product-section #product-section-content #customer-reviews{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+
+    #product-section #product-section-content #customer-reviews.open{
+        height: 0vh;
+    }
+
+    #product-section #one-month-pack, #product-section #three-month-pack{
+        width: auto;
+        padding: 30px 20px;
+        margin: 50px 0;
+        transform: scale(1) !important;
+    }
+
+    #product-section #one-month-pack:hover, #product-section #three-month-pack:hover{
+        transform: scale(1.1) !important;
+    }
+
+    #product-section #one-month-pack #pack-tags p{
+        padding: 5px 10px;
+        margin: 0 5px 0 0;
+    }
+
+    #product-section #one-month-pack #pack-info, #product-section #three-month-pack #pack-info{
+        flex: 1;
+    }
+
+    #product-section #one-month-pack #pack-info h1, #product-section #three-month-pack #pack-info h1{
+        font-size: 20px;
+    }
+
+    #product-section #one-month-pack #pack-info #saved-percent h1, #product-section #three-month-pack #pack-info #saved-percent h1{
+        font-size: 12px;
+    }
+
+    #product-section #one-month-pack #pack-details p, #product-section #three-month-pack #pack-details p{
+        font-size: 15px;
+    }
+
+
+
+
+
+    .dyeus-app{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+}
