@@ -1,12 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import gsap from 'gsap';
+import { useEffect } from 'react';
+import React from 'react';
+import { Elastic } from 'gsap/src';
 
 function App() {
+
+  useEffect(()=> {
+    gsap.fromTo("#main-page-image-wrapper img",{
+      x: -100,
+      opacity: 0,
+    },{
+      x: 0,
+      opacity: 1,
+    });
+
+    gsap.fromTo("#product-desc .letter",{
+      top: 50,
+      opacity: 0,
+    },{
+      duration: 0.2,
+      stagger: 0.02,
+      top: 0,
+      opacity: 1,
+    })
+
+    gsap.fromTo("#product-pricing div",{
+      opacity: 0,
+      y: -20
+    },{
+      y: 0,
+      opacity: 1,
+      stagger: 0.1,
+    })
+
+
+  },[])
+
+
   return (
     <section className="dyeus-app">/
 
       <NavBar />
       <div id="main-page">
+        
         <div id="main-page-image-wrapper">
           <img src="https://images.unsplash.com/photo-1611744669444-5edf2ce1dd56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhY2thZ2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="cannot display the image" />
         </div>
@@ -15,16 +53,29 @@ function App() {
 
             <div id="product-section-content">
               <div id="product-brief-info">
-                <h1>Everyday rinse and reload.</h1>
+                <div id="product-desc">
+                <SplitWord>
+                  <h1>Everyday rinse and reload.</h1>
+                </SplitWord></div>
                 <p>Achieve this dream skin goal with this complete package of skincare products that will rejuvenate your day.</p>
                 <div id="product-ratings-reviews">
-                  <div id="rating-stars">
-                    
+                  <div id="product-rating-div">
+                      <div id="rating-stars">
+                        
 
+                      </div>
+                      <div id='rating-reviews'>
+                        <h1>4.5</h1>
+                        <p onClick={() => {
+                          document.getElementById('customer-reviews').classList.toggle('open');
+                        }}>click to read reviews.</p>
+                      </div>
                   </div>
-                  <div id='rating-reviews'>
-                    <h1>4.5</h1>
-                    <p>click to read reviews.</p>
+                  <div id="customer-reviews">
+                    <h2>Hear what our users have to say.</h2>
+                    <CustomerReviewTemplate name="Rahul" review="This product is really great and amazing. Love this product"/>
+                    <CustomerReviewTemplate name="Rakesh" review="I would definitely recommend this product to my friends and family members."/>
+                    <CustomerReviewTemplate name="karthik" review=" This is really the complete skin care package, I have been using this product for as long as I remember and it is really great."/>
                   </div>
                 </div>
               </div>
@@ -81,9 +132,29 @@ function App() {
   );
 }
 
+function SplitWord({children}){
+  var word = React.Children.toArray(children);
+
+  return word.map((letter) => {
+    console.log(letter.props.children.split(''))
+    return letter.props.children.split("").map((l) => {
+        return <span className="letter">{l}</span>
+
+    })
+  })
+
+}
+
 function NavBar(){
   return <div id="nav-bar">
 
+  </div>
+}
+
+function CustomerReviewTemplate({name,review}){
+  return <div className="customer-review">
+    <h1>{name}</h1>
+    <p>{review}</p>
   </div>
 }
 

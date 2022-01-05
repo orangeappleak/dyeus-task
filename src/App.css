@@ -3,7 +3,11 @@
 *{
   padding: 0;
   margin: 0;
-  color: white;
+}
+
+.dyeus-app{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1030%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M353 309L140 522' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M449 1L608 -158' stroke-width='6' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1372 64L1778 -342' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M703 144L406 441' stroke-width='10' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M114 251L-289 654' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M716 279L423 572' stroke-width='6' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M1011 463L738 736' stroke-width='10' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M606 120L381 345' stroke-width='10' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M514 35L103 446' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M25 270L354 -59' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1037 19L627 429' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M713 415L943 185' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1259 428L1424 263' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1203 452L1561 94' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1339 254L1713 -120' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M1366 255L1104 517' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M817 497L455 859' stroke-width='6' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1422 57L1643 -164' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M1354 203L1065 492' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M10 19L214 -185' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M145 516L-53 714' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M166 253L15 404' stroke-width='10' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M14 441L-262 717' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M148 476L-53 677' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M41 140L-378 559' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M415 549L259 705' stroke-width='6' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M823 203L1023 3' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1028 61L1281 -192' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M924 483L582 825' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M433 162L67 528' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1218 363L1025 556' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M1256 502L1532 226' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1070 335L1439 -34' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1101 120L1352 -131' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M202 226L-83 511' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M129 509L270 368' stroke-width='10' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M5 11L212 -196' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M615 58L988 -315' stroke-width='8' stroke='url(%23SvgjsLinearGradient1031)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M9 221L-390 620' stroke-width='8' stroke='url(%23SvgjsLinearGradient1032)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1030'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1031'%3e%3cstop stop-color='rgba(139%2c 139%2c 139%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(139%2c 139%2c 139%2c 0.42)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1032'%3e%3cstop stop-color='rgba(139%2c 139%2c 139%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(139%2c 139%2c 139%2c 0.42)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
 }
 
 body,html{
@@ -11,11 +15,21 @@ body,html{
 }
 
 #main-page{
-  margin: 50px;
+  padding: 50px;
   display: flex;
 }
 
+#main-page-image-wrapper{
+  overflow: hidden;
+  height: 100%;
+}
+
+#main-page-image-wrapper img{
+  height: 100%;
+}
+
 #product-section{
+  flex: 1;
   margin: 0 50px;
 }
 
@@ -27,21 +41,34 @@ body,html{
   font-family: "DM Sans";
   font-size: 32px;
   font-weight: 700;
+  color: white;
+}
+
+#product-desc .letter{
+  position: relative;
+  color: white;
+  font-size: 32px;
+  font-family: 'Dm Sans';
 }
 
 #product-brief-info p{
-  font-size: 18px;
-  font-weight: light;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
   font-family: 'Montserrat';
 }
 
 #product-ratings-reviews{
+  position: relative;
+  height: auto;
   display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 #rating-reviews{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -51,6 +78,52 @@ body,html{
 
 #rating-reviews p{
   opacity: 0.5;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: opacity 0.4s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#rating-reviews p:hover{
+  transform: scale(1);
+  opacity: 1;
+}
+
+#customer-reviews{
+  position: relative;
+  border-radius: 20px;
+  background-color: rgba(56, 56, 56, 0.63);
+  padding: 0px;
+  height: 0vh;
+  margin: 10px 20px;
+  overflow: hidden;
+  transition: padding 1s ease-in-out,height 1s ease-in-out;
+}
+
+#customer-reviews.open{
+  height: 70vh;
+  padding: 20px;
+}
+
+body #customer-reviews h2:first-child{
+  margin: 20px;
+  color: white;
+  font-size: 32px;
+  font-family: 'Dm Sans';
+}
+
+
+#customer-reviews .customer-review{
+  position: relative;
+  padding: 20px;
+  border: 2px solid rgba(128, 128, 128, 0.342);
+  border-radius: 20px;
+  font-weight: 400;
+  overflow: hidden;
+  margin: 10px 20px;
+}
+
+body #customer-reviews .customer-review h1{
+  font-size: 22px;
 }
 
 #product-price-value{
@@ -58,6 +131,7 @@ body,html{
   align-items: center;
   margin: 3em 0;
   justify-content: flex-start;
+  color: white;
   font-family: 'Montserrat';
 }
 
@@ -74,25 +148,40 @@ body,html{
 }
 
 #product-monthly-pack-pricing{
-  width: 60%;
+  width: 100%;
 }
 
 
 #one-month-pack, #three-month-pack{
+  width: 60%;
+  transform: translate(0%,0%) scale(1);
   display: flex;
   justify-content: space-between;
+  color: white;
   align-items: center;
   margin: 20px 0;
   border-radius: 20px;
   background-color: rgba(56, 56, 56, 0.63);
   padding: 1.8em 3em;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition:color 0.4s ease-in-out,background-color 0.4s ease-in-out, transform 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86), width 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
+
+#one-month-pack:hover, #three-month-pack:hover{
+  width: 70%;
+  color: black;
+  background-color: white;
+  transform: translate(5%, 0%);
+}
+
 
 #pack-tags{
   display: flex;
 }
 
 #pack-tags p{
+  pointer-events: none;
   margin: 0 20px 0 0;
   padding: 0.5em 1em;
   font-size: 10px;
