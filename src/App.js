@@ -32,14 +32,46 @@ function App() {
 
           <div id="product-pricing">
             <div id="product-price-value">
-              <h1>$899</h1>
-              <h1>$1299</h1>
+              <h1>&#x20b9; 899</h1>
+              <h1>&#x20b9; 1299</h1>
             </div>
             <div id="product-monthly-pack-pricing">
-              <div id="1-month-pack">
+              <div id="one-month-pack">
+                <div id="pack-info">
+                  <div id="pack-tags">
+                    <p>Most Popular</p>
+                    <p>Best Results</p>
+                  </div>
+                  <div id="pack-details">
+                    <h1>1 Month Pack</h1>
+                    <p>Savings &#x20b9;200 </p>
+                    <div id="saved-percent">
+                      <h1>38% Saved this pack</h1>
+                    </div>
+                  </div>
+                </div>
+                <div id="pack-pricing">
+                  <h1>&#x20b9; 595</h1>
+                  <h1>&#x20b9; 795</h1>
 
+                </div>
               </div>
-              <div id="3-month-pack"></div>
+              <div id="three-month-pack">
+              <div id="pack-info">
+                  <div id="pack-details">
+                    <h1>3 Month Pack</h1>
+                    <p>Savings &#x20b9;100 </p>
+                    <div id="saved-percent">
+                      <h1>12% Saved this pack</h1>
+                    </div>
+                  </div>
+                </div>
+                <div id="pack-pricing">
+                  <h1>&#x20b9; 899</h1>
+                  <h1>&#x20b9; 999</h1>
+
+                </div>
+              </div>
             </div>
           </div>
 
