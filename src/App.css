@@ -1,4 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat&display=swap');
+
 *{
   padding: 0;
   margin: 0;
+  background-color: black;
+  color: white;
 }
+
+#main-page{
+  margin: 50px;
+  display: flex;
+}
+
+#product-section{
+  margin: 0 50px;
+}
+
+#product-section div{
+  margin: 20px 0;
+}
+
+#product-brief-info *{
+  margin: 10px 0;
+}
+
+#product-brief-info h1{
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#product-brief-info p{
+  font-size: 18px;
+  font-weight: light;
+  font-family: 'Montserrat';
+}
+
+#product-ratings-reviews{
+  display: flex;
+}
+
+#rating-reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rating-reviews *{
+  margin: 0 20px 0 0;
+}
+
+#rating-reviews p{
+  opacity: 0.5;
+}
+
